@@ -37,19 +37,19 @@ export const DualRangeSlider: React.FC<DualRangeSliderProps> = ({
   return (
     <div className="flex flex-col gap-1.5 min-w-[210px] flex-1">
       <div className="flex items-center justify-between text-xs">
-        <span className="text-slate-400 font-medium">{label}</span>
-        <span className="font-mono font-semibold text-sky-400 tabular-nums">
+        <span className="text-slate-700 font-semibold">{label}</span>
+        <span className="font-mono font-bold text-sky-800 tabular-nums">
           {formatValue(valueMin)} – {formatValue(valueMax)}
         </span>
       </div>
 
       <div className="relative h-6 flex items-center select-none">
         {/* Riel base */}
-        <div className="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden" />
+        <div className="w-full h-1.5 bg-slate-200 border border-slate-300/80 rounded-full overflow-hidden" />
 
         {/* Área activa marcada entre las dos puntas */}
         <div
-          className="absolute h-1.5 bg-sky-500/80 rounded-full pointer-events-none"
+          className="absolute h-1.5 bg-sky-600 rounded-full pointer-events-none"
           style={{
             left: `${leftPct}%`,
             width: `${widthPct}%`,
