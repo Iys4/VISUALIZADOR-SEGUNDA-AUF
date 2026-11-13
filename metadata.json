@@ -1,0 +1,6 @@
+{
+  "name": "AUF Segunda 2026 — Visualizador Histórico",
+  "description": "Visualizador interactivo fecha a fecha de la Segunda División Profesional de Uruguay 2026: Tabla Anual, Promedios de Descenso, Bump Chart y Matriz de Forma.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
